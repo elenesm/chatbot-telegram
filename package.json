@@ -1,0 +1,11 @@
+{
+  "name": "worldfitness-telegram-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.6.1",
+    "node-fetch": "^2.7.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
