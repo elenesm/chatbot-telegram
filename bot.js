@@ -3,8 +3,8 @@ const TelegramBot = require("node-telegram-bot-api");
 const fetch = require("node-fetch");
 const { guardarPedido } = require("./db");
 
-const bot = new TelegramBot("8225941415:AAGeHBukkCF", { polling: true });
-const API_KEY = "AIzaSyD4_HZzwOL6-DHDQofY866-FmYKhhRsiHs";
+const bot = new TelegramBot("TELEGRAM_TOKEN", { polling: true });
+const API_KEY = "API";
 
 const INSTAGRAM_URL = "https://www.instagram.com/worldfitnesscln";
 
